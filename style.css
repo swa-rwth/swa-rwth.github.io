@@ -61,3 +61,12 @@ footer {
   display: block;
   margin-bottom: 1rem;
 }
+
+.person-inline {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.person-inline .profile-pic {
+  flex-shrink: 0;
+}
